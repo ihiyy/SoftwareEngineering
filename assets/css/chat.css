@@ -1158,3 +1158,11 @@ button:focus {
   .appointment .php-email-form button[type=submit]:hover {
     background: #1c84e3;
   }
+
+/* Profile Picture */
+  .profile-picture {
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    border-radius: 50%; /* Makes the element a circle */
+    background-size: cover; /* Ensures the image covers the entire circle */
+  }
